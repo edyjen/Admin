@@ -10,6 +10,7 @@ ini_set('session.use_trans_sid', '0');
 
 //requeriments
 require_once(__DIR__ . "/session.php");
+require_once(__DIR__ . "/dbtoken.php");
 
 class Controller {
 	//database handler
@@ -52,6 +53,7 @@ class Controller {
 
 		$this->info["envios"] = array("Domesa", "Grupo Zoom", "MRW", "Entrega Personal");
 		$this->info["bancos"] = array("Banco Banesco", "Banco de Venezuela", "Banco del Tesoro");
+		$this->info["metodo"] = array("Depósito", "Transferencia", "MercadoPago");
 	}
 
 	public function checkErrors() {
@@ -70,7 +72,7 @@ class Controller {
 	}
 
 	public function connectDatabase() {
-		$this->db = new DatabaseHandler("localhost", "creamipl_plantilla", "creamipl_user", "plantillav1.0", "5432");
+		$this->db = new DatabaseHandler($db_server, $db_database, $db_username, $db_password, $db_portnumb);
 
 		$result = $this->db->connect();
 		$this->setMessage($this->db->messageId, $this->db->messageId);

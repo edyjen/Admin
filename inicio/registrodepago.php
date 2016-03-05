@@ -19,6 +19,7 @@ if (!$h->checkPermission(0)) {
 $info = $h->getInfo();
 $h->setData("bancos", $info["bancos"]);
 $h->setData("envios", $info["envios"]);
+$h->setData("metodo", $info["metodo"]);
 
 $h->generateCaptcha();
 $h->showPage("template_form", "Registro de Pago", "pago/registro");

@@ -1,3 +1,3 @@
 <?php
-	header("location: inicio");
+    header("location: inicio");
 ?>

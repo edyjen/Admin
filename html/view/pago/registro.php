@@ -133,10 +133,6 @@
 			<div class="col-sm-8">
 				<select class="form-control" id="_pago_metodo" name="_PAGO_METODO">
 					<option value="">- Elegir -</option>
-					<option value="Depósito">Depósito Bancario</option>
-					<option value="Transferencia">Transferencia Electrónica</option>
-					<option value="MercadoPago">MercadoPago</option>
-					<option value="Paypal">Paypal</option>
 				</select>
 			</div>
 		</div>
@@ -232,14 +228,20 @@
 
 		$.each(result.envios, function(key, value) {
 			$("#_recibe_empresa").append(
-		        $('<option>').val(value).text(value)
-		    );
+				$('<option>').val(value).text(value)
+			);
 		});
 
 		$.each(result.bancos, function(key, value) {
 			$("#_pago_destino").append(
-		        $('<option>').val(value).text(value)
-		    );
+				$('<option>').val(value).text(value)
+			);
+		});
+
+		$.each(result.metodo, function(key, value) {
+			$("#_pago_metodo").append(
+				$('<option>').val(value).text(value)
+			);
 		});
 
 		$("#_pago_metodo").change(function(){

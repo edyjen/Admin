@@ -41,9 +41,9 @@ class Controller {
 		}
 
 		$this->info = array(
-			"name" => "Digital Center Mobile",
-			"email" => "ventas@dcm.com.ve",
-			"phone" => "0424-8407283 / 0293-5159245",
+			"name" => "Crea mi Plantilla",
+			"email" => "info@creamiplantilla.com.ve",
+			"phone" => "0424-1234567 / 0293-5552222",
 			"asunto_mailrecibido" => "Gracias por su compra",
 			"asunto_mailrevisado" => "Hemos verificado su pago",
 			"asunto_mailenviado" => "Hemos enviado el producto",
@@ -51,7 +51,7 @@ class Controller {
 		);
 
 		$this->info["envios"] = array("Domesa", "Grupo Zoom", "MRW", "Entrega Personal");
-		$this->info["bancos"] = array("Banco Banesco", "Banco de Venezuela", "BOD Banco Occidental de Descuento", "Banco del Tesoro");
+		$this->info["bancos"] = array("Banco Banesco", "Banco de Venezuela", "Banco del Tesoro");
 	}
 
 	public function checkErrors() {

@@ -10,7 +10,6 @@ ini_set('session.use_trans_sid', '0');
 
 //requeriments
 require_once(__DIR__ . "/session.php");
-require_once(__DIR__ . "/dbtoken.php");
 
 class Controller {
 	//database handler
@@ -72,6 +71,7 @@ class Controller {
 	}
 
 	public function connectDatabase() {
+		require(__DIR__ . "/dbtoken.php");
 		$this->db = new DatabaseHandler($db_server, $db_database, $db_username, $db_password, $db_portnumb);
 
 		$result = $this->db->connect();

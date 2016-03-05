@@ -8,27 +8,21 @@
 <div class="theme-showcase jumbotron">
 	<legend>Datos Bancarios</legend>
 	<ul><li><b>Banco Banesco</b>:<ul>
-		<li><b>A nombre de</b>: Luis Alfonso Villaroel Roa</li>
-		<li><b>Cédula de Identidad</b>: V-22631863</li>
-		<li><b>Nº de Cuenta</b>: 0134-0471-28-4712183399</li>
+		<li><b>A nombre de</b>: Crea mi Plantilla</li>
+		<li><b>Cédula de Identidad</b>: V-12345678</li>
+		<li><b>Nº de Cuenta</b>: 0134-0001-00-0123456789</li>
 		<li><b>Cuenta</b>: Ahorros</li>
 	</ul></li></ul>
-	<ul><li><b>Banco BOD</b>:<ul>
-		<li><b>A nombre de</b>: Luis Alfonso Villaroel Roa</li>
-		<li><b>Cédula de Identidad</b>: V-22631863</li>
-		<li><b>Nº de Cuenta</b>: 0116-0428-52-0022067507</li>
-		<li><b>Cuenta</b>: Corriente</li>
-	</ul></li></ul>
 	<ul><li><b>Banco de Venezuela</b>:<ul>
-		<li><b>A nombre de</b>: Luis Alfonso Villaroel Roa</li>
-		<li><b>Cédula de Identidad</b>: V-22631863</li>
-		<li><b>Nº de Cuenta</b>: 0102-0676-64-0000107482</li>
+		<li><b>A nombre de</b>: Crea mi Plantilla</li>
+		<li><b>Cédula de Identidad</b>: V-12345678</li>
+		<li><b>Nº de Cuenta</b>: 0102-0001-01-0000112233</li>
 		<li><b>Cuenta</b>: Corriente</li>
 	</ul></li></ul>
 	<ul><li><b>Banco del Tesoro</b>:<ul>
-		<li><b>A nombre de</b>: Luis Alfonso Villaroel Roa</li>
-		<li><b>Cédula de Identidad</b>: V-22631863</li>
-		<li><b>Nº de Cuenta</b>: 0163-0403-41-4033004124</li>
+		<li><b>A nombre de</b>: Crea mi Plantilla</li>
+		<li><b>Cédula de Identidad</b>: V-12345678</li>
+		<li><b>Nº de Cuenta</b>: 0163-0001-00-0101020233</li>
 		<li><b>Cuenta</b>: Corriente</li>
 	</ul></li></ul>
 </div>
